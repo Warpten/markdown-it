@@ -42,7 +42,7 @@ const defaults = {
   _view: 'html' // html / src / debug
 }
 
-defaults.highlight = function (str, lang) {
+defaults.highlight = function (str, lang, langAttrs) {
   const esc = mdHtml.utils.escapeHtml
 
   try {
